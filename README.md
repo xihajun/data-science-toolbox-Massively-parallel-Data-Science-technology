@@ -16,7 +16,7 @@
 - [ ] System efficiency
 
    ![](http://latex.codecogs.com/gif.latex?T%28p%29%20%3D%20%5Cfrac%7BS%28p%29%7D%7Bp%7D)
-
+#### Why not linear speedup?
 * cannot parallelled
 * synchronization cost
 * Communication time
