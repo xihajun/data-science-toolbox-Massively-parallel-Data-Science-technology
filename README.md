@@ -11,3 +11,5 @@
 - [ ] Draw speedup graph
 
 - [ ] System efficiency
+
+T(p) = S(p)/p
