@@ -1,5 +1,8 @@
 # Massivel-parallel-Data-Science-technology
 
+## TODO list
+- [ ] How to limit the number of processor
+
 ## How to evaluate
 
 ### Speedup Factor
