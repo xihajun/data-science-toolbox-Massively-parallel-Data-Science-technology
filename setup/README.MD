@@ -1,8 +1,23 @@
 # Setup
-## Install java
-[Check here](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
+## Install java8 (if it is not installed)
+
+```{bash}
+brew tap caskroom/versions
+brew cask install java8
+```
+
+[This is not helpful!](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
 
 ## Install pyspark
 ```{python}
 pip install pyspark
+```
+## Open jupyter notebook
+```{python}
+from pyspark import SparkContext
+import os 
+
+os.environ['JAVA_HOME']="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/"
+
+os.environ['PYSPARK_SUBMIT_ARGS'] = "--master local[2] pyspark-shell"
 ```
