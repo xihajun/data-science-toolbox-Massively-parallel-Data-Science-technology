@@ -15,6 +15,7 @@ brew cask install java8
 pip install pyspark
 ```
 ## Open jupyter notebook
+Copy this in, it helps in my labtop
 ```{python}
 from pyspark import SparkContext
 import os 
