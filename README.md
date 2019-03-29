@@ -11,7 +11,7 @@
 
 * linear speedup ![linear](http://latex.codecogs.com/gif.latex?%24%24S%28p%29%20%3D%20p)
 
-* superlinear speedup S(p) >p
+* superlinear speedup ![linear](http://latex.codecogs.com/gif.latex?%24%24S%28p%29%20>%20p)
 
 - [ ] Draw speedup graph
 
