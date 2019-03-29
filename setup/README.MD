@@ -5,7 +5,7 @@
 brew tap caskroom/versions
 brew cask install java8
 ```
-* Check if you installed 
+* If this path exist, then skip this step.
     
       cd /Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/
 [This is not helpful!](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
