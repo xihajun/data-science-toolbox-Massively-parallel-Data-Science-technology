@@ -1,0 +1,12 @@
+.DS_Store
+*/.DS_Store
+#*
+*/#*
+#log.org#
+Git/.#autosave.sh
+*/.ipynb_checkpoints/
+draft
+#draft#
+draft.org
+.#draft
+draft.org~
