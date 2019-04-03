@@ -26,4 +26,8 @@ import os
 os.environ['JAVA_HOME']="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/"
 
 os.environ['PYSPARK_SUBMIT_ARGS'] = "--master local[2] pyspark-shell"
+
+sc = SparkContext.getOrCreate()
+
+data = sc.parallelize([('hello',100)])
 ```
